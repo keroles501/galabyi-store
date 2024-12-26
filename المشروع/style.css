@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    direction: rtl;
+    background: url('photo/Screenshot\ 2024-12-05\ 140608.png') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 2rem 0;
+    color: white;
+}
+
+nav {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 1rem 0;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #007BFF;
+}
+
+section {
+    padding: 2rem;
+    margin: 1rem auto;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    max-width: 800px;
+}
+
+section img {
+    width: 300px;
+    height: auto;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+footer {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 1rem;
+    margin-top: 2rem;
+}
